@@ -1,0 +1,26 @@
+Begin Object Class=/Script/Engine.Material Name="M_Exo_CobWeb01_NoMove"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_11"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_9"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_11"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_9"
+      Texture=Texture2D'"/Game/InfinityBladeGrassLands/Environments/Misc/Exo_Deco02/Textures/T_Cobweb03_D.T_Cobweb03_D"'
+      MaterialExpressionEditorX=-368
+      MaterialExpressionEditorY=-32
+      MaterialExpressionGuid=39873F2F424613818AADC88F3F284D8F
+      Material=Material'"M_Exo_CobWeb01_NoMove"'
+   End Object
+   BaseColor=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_9"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Metallic=(OutputIndex=1)
+   Specular=(OutputIndex=2)
+   Opacity=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_9"',OutputIndex=4,Mask=1,MaskA=1)
+   BlendMode=BLEND_Translucent
+   bUsedWithStaticLighting=True
+   Expressions(0)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_9"'
+   StateId=A1139B1E42A75EBAFD7D8885BA79842E
+   ReferencedTextureGuids(0)=BCDCEDC140CB00DE34855C867F13A5C8
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_11"'
+   LightingGuid=5E5818D5439F9471368D709E21E24672
+End Object

@@ -1,0 +1,433 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.10f1 (1c7d0df0160b) revision 1867021'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ko' Physical Memory: 16302 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Portfolio/Portfolio
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+10876
+Successfully changed project path to: D:/Portfolio/Portfolio
+D:/Portfolio/Portfolio
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 202.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Portfolio/Portfolio/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6023 MB
+    Driver:   31.0.15.1748
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.076255 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 90.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.470 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4470ms)
+		BeginReloadAssembly (3238ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (837ms)
+			LoadAssemblies (3235ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (454ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (295ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (91ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (135ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 1.059910 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Portfolio\Portfolio\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Portfolio\Portfolio\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.966 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4967ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (4660ms)
+			LoadAssemblies (2380ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (719ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (1461ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (354ms)
+				ProcessInitializeOnLoadMethodAttributes (999ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (113.7 KB). Loaded Objects now: 3855.
+Memory consumption went from 129.9 MB to 129.8 MB.
+Total: 3.306700 ms (FindLiveObjects: 0.312300 ms CreateObjectMapping: 0.086400 ms MarkObjects: 2.778100 ms  DeleteObjects: 0.128700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 965.816224 seconds.
+  path: Assets/Resources/Textures/Builds/Materials/T_Decos_BSP_Stucco03_D.mat
+  artifactKey: Guid(eb2b93465ef5c0642b5a9bdb946026ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Textures/Builds/Materials/T_Decos_BSP_Stucco03_D.mat using Guid(eb2b93465ef5c0642b5a9bdb946026ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674f1e8581dd63a3b0fb4680fe1ff2b4') in 0.289762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 57.137616 seconds.
+  path: Assets/Resources/Textures/Builds/Materials/T_Pew_D.mat
+  artifactKey: Guid(3f08791e63c23fe4daee646e41730184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Textures/Builds/Materials/T_Pew_D.mat using Guid(3f08791e63c23fe4daee646e41730184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0435f6a119550a95776dc07279239890') in 0.015081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 155.176438 seconds.
+  path: Assets/Resources/Prefabs/Object/Angel.prefab
+  artifactKey: Guid(0b9f6d50576beb7469a1f41ec6cbc5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Object/Angel.prefab using Guid(0b9f6d50576beb7469a1f41ec6cbc5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db28a11e811b42771c883408731e6e7') in 0.072992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resources/Prefabs/Object/Man2.prefab
+  artifactKey: Guid(178bf39ded55d234aac3328804dd14b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Object/Man2.prefab using Guid(178bf39ded55d234aac3328804dd14b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c330d1e53fdb3d012fd99e5c2a9f541') in 0.057651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Resources/Prefabs/Object/WoodenBarrel_Destroyed.prefab
+  artifactKey: Guid(598053f889088e34aa08a9dd7a36a16e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Object/WoodenBarrel_Destroyed.prefab using Guid(598053f889088e34aa08a9dd7a36a16e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb1212c75eb03713da500d964bf52e9f') in 0.035574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Resources/Prefabs/Object/WoodenBarrel_Damaged.prefab
+  artifactKey: Guid(73931c90b5e97634880f8969986e9ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Object/WoodenBarrel_Damaged.prefab using Guid(73931c90b5e97634880f8969986e9ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1374d62e233ce9be06e7395a7359db8') in 0.022950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.862419 seconds.
+  path: Assets/Resources/Prefabs/Object/SM_Exo_Deco_2.prefab
+  artifactKey: Guid(39727fac2ab6f8a468ad2e12d9efa1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Object/SM_Exo_Deco_2.prefab using Guid(39727fac2ab6f8a468ad2e12d9efa1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '274f49dc60c5c5624ce963af2d77c65f') in 0.020617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Resources/Prefabs/Object/SM_Exo_Stone01_Framed.prefab
+  artifactKey: Guid(3c32bc85bd521344daf2836c32d29703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Object/SM_Exo_Stone01_Framed.prefab using Guid(3c32bc85bd521344daf2836c32d29703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19adacdc3a75ecfe48f4ffc7ef1b3cab') in 0.016525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 280.988785 seconds.
+  path: Assets/Resources/Models/Grass/SM_Dry_Wheatgrass_01.FBX
+  artifactKey: Guid(8054b6b17541a8e4aab9ba7dc5899976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/Grass/SM_Dry_Wheatgrass_01.FBX using Guid(8054b6b17541a8e4aab9ba7dc5899976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b539567751d94d0c181fa33b70a64f89') in 0.053824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Resources/Models/Grass/SM_Marram_Grass_02.FBX
+  artifactKey: Guid(18729b8c12a795843a94acb61aca1726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/Grass/SM_Marram_Grass_02.FBX using Guid(18729b8c12a795843a94acb61aca1726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e23a0f8e307ea94ab6c73905fb7ba741') in 0.023273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resources/Models/Grass/SM_Marram_Grass_011.FBX
+  artifactKey: Guid(9608a1aafa8dcc84d8e355a7f72e88d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/Grass/SM_Marram_Grass_011.FBX using Guid(9608a1aafa8dcc84d8e355a7f72e88d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1cf997e879431667330aba590a0a0de') in 0.023917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Resources/Models/Grass/SM_Marram_Grass_010.FBX
+  artifactKey: Guid(2715b4a13b4d8ae42891f27f5b2e1be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/Grass/SM_Marram_Grass_010.FBX using Guid(2715b4a13b4d8ae42891f27f5b2e1be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59cce1f6500754323c597445854bc8b5') in 0.025978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Resources/Models/Grass/SM_DryPlant_03.FBX
+  artifactKey: Guid(3c12ed1f0dfc0f94eb2ced3900f4da7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/Grass/SM_DryPlant_03.FBX using Guid(3c12ed1f0dfc0f94eb2ced3900f4da7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5299833a59f4836769b85947443dd261') in 0.025148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Resources/Models/Grass/SM_DryPlant_025.FBX
+  artifactKey: Guid(44ea261bae639514aab7999788dd3ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/Grass/SM_DryPlant_025.FBX using Guid(44ea261bae639514aab7999788dd3ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c2a3014e6ff45213cee4166e6afc45') in 0.022579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Resources/Models/Grass/SM_Dry_Wheatgrass_06.FBX
+  artifactKey: Guid(0ee69fb4d89c78a498671af2f7cd1d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/Grass/SM_Dry_Wheatgrass_06.FBX using Guid(0ee69fb4d89c78a498671af2f7cd1d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '719c87b2bbf301370c9c529e37227b3c') in 0.026892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resources/Models/Grass/SM_DryPlant_01.FBX
+  artifactKey: Guid(3cee9a7cdb2642048ac11536dd5638aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/Grass/SM_DryPlant_01.FBX using Guid(3cee9a7cdb2642048ac11536dd5638aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276d81f26602ee1451616b38670e89f6') in 0.024063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resources/Models/Grass/SM_Marram_Grass_013.FBX
+  artifactKey: Guid(cfe0792b3989aaa4ea1c7de689d65f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/Grass/SM_Marram_Grass_013.FBX using Guid(cfe0792b3989aaa4ea1c7de689d65f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '744539a5b5864ead5c1f11ae33c86042') in 0.023550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Resources/Models/Grass/SM_DryPlant_05.FBX
+  artifactKey: Guid(c84d621c0171f8043be71a1536acfe55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/Grass/SM_DryPlant_05.FBX using Guid(c84d621c0171f8043be71a1536acfe55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce7a61485829ba4f22ae6a57ba30c76') in 0.026746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Resources/Models/Grass/SM_Dry_Wheatgrass_03.FBX
+  artifactKey: Guid(48fc05de699786e49824efab72bf3b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/Grass/SM_Dry_Wheatgrass_03.FBX using Guid(48fc05de699786e49824efab72bf3b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40472f81147462a147ccee36629114ac') in 0.024736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/Models/Grass/SM_DryPlant_011.FBX
+  artifactKey: Guid(4ef087d524f4265429372b24ff2205c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/Grass/SM_DryPlant_011.FBX using Guid(4ef087d524f4265429372b24ff2205c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1612068bb411d5ea53e98aa6b52ef1') in 0.023433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Resources/Models/Grass/SM_DryPlant_012.FBX
+  artifactKey: Guid(818e290b4f74cdb4698199fc06dccd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/Grass/SM_DryPlant_012.FBX using Guid(818e290b4f74cdb4698199fc06dccd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42be1e0deb8ca4a2d45ee6d42395a39c') in 0.021976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Resources/Models/Grass/SM_DryPlant_019.FBX
+  artifactKey: Guid(3bcbc09c9661d4f44984444b1e6e233e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/Grass/SM_DryPlant_019.FBX using Guid(3bcbc09c9661d4f44984444b1e6e233e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e37ad414b451e10c3501763430a5b911') in 0.023415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Resources/Models/Grass/SM_DryPlant_021.FBX
+  artifactKey: Guid(01efa5bc034fcaf4da636e7981444306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/Grass/SM_DryPlant_021.FBX using Guid(01efa5bc034fcaf4da636e7981444306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d657fdef531378d1fa16f8781c607bd') in 0.022134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resources/Models/Grass/SM_Marram_Grass_01.FBX
+  artifactKey: Guid(25e880734f0827a439e0c1d1f64e02c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/Grass/SM_Marram_Grass_01.FBX using Guid(25e880734f0827a439e0c1d1f64e02c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6398cd19dc466652b53d80825473ae13') in 0.027238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Resources/Models/Grass/SM_DryPlant_017.FBX
+  artifactKey: Guid(95bf7f7a05560b64dad388d624e6ce8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/Grass/SM_DryPlant_017.FBX using Guid(95bf7f7a05560b64dad388d624e6ce8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca50c030438858ee59e33f1755ed33f') in 0.023527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resources/Models/Grass/SM_Marram_Grass_014.FBX
+  artifactKey: Guid(06569a996d12bd945bf0ef3a3f71d5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/Grass/SM_Marram_Grass_014.FBX using Guid(06569a996d12bd945bf0ef3a3f71d5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9f475b29e140d140666337ee43d086') in 0.029015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resources/Models/Grass/SM_Marram_Grass_03.FBX
+  artifactKey: Guid(9548eccc0e303f145850644ed1cb6609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/Grass/SM_Marram_Grass_03.FBX using Guid(9548eccc0e303f145850644ed1cb6609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a75d74c11d242dc660b0226c59f7541e') in 0.026297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Resources/Models/Grass/SM_Marram_Grass_06.FBX
+  artifactKey: Guid(f9c6de8f6dcbc9545895167f93a117d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/Grass/SM_Marram_Grass_06.FBX using Guid(f9c6de8f6dcbc9545895167f93a117d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '754e1d0137786828334db713cff33bc3') in 0.025015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Resources/Models/Grass/SM_Marram_Grass_04.FBX
+  artifactKey: Guid(4548d8c82b695d146976f855b9daa07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/Grass/SM_Marram_Grass_04.FBX using Guid(4548d8c82b695d146976f855b9daa07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a176c32e26a4600dfb26a4c223851a') in 0.023850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Resources/Models/Grass/SM_DryPlant_09.FBX
+  artifactKey: Guid(f7d7c0d5b30769e42bc5dee164bf53e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/Grass/SM_DryPlant_09.FBX using Guid(f7d7c0d5b30769e42bc5dee164bf53e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09969f9638440b31b9e51b02b14457ad') in 0.025095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Resources/Models/Grass/SM_DryPlant_04.FBX
+  artifactKey: Guid(517843e51ea3169479840c3ca37cca44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/Grass/SM_DryPlant_04.FBX using Guid(517843e51ea3169479840c3ca37cca44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e962af8b46fb888c02d8678ef7a6f0e3') in 0.033159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/Models/Grass/SM_DryPlant_013.FBX
+  artifactKey: Guid(c031c9aae04631141a9e58548002ca3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/Grass/SM_DryPlant_013.FBX using Guid(c031c9aae04631141a9e58548002ca3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6818f6e7ec0b75adb4db194e4f0dcd2d') in 0.024246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Resources/Models/Grass/SM_Marram_Grass_016.FBX
+  artifactKey: Guid(e1671338abb696f42a22f643e648bcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/Grass/SM_Marram_Grass_016.FBX using Guid(e1671338abb696f42a22f643e648bcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfcdcea286bad7ef93444910696eaa50') in 0.023720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.607998 seconds.
+  path: Assets/Resources/Textures/Grass/T_Dry_Plant_Set_00_N.TGA
+  artifactKey: Guid(65dab829341fe0f4ebf515fd68564cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Textures/Grass/T_Dry_Plant_Set_00_N.TGA using Guid(65dab829341fe0f4ebf515fd68564cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '374a90d661a3b34c5f473132ff5078d8') in 0.046758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/Textures/Grass/T_Dry_Wheatgrass_00_T.TGA
+  artifactKey: Guid(ff09a4ab0dd8ad142978d430284f51d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Textures/Grass/T_Dry_Wheatgrass_00_T.TGA using Guid(ff09a4ab0dd8ad142978d430284f51d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa792d8dbf8f2eee1e07913529b33f25') in 0.034230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Resources/Textures/Grass/T_Dry_Wheatgrass_00_R.TGA
+  artifactKey: Guid(6b62ce5c78d6ba541baf9aa7482ae349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Textures/Grass/T_Dry_Wheatgrass_00_R.TGA using Guid(6b62ce5c78d6ba541baf9aa7482ae349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e79740301d1a4915d929eacde062685') in 0.014732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Resources/Textures/Grass/T_Dry_Wheatgrass_00_A.TGA
+  artifactKey: Guid(768b133a01a54a54884e4b971fe0f96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Textures/Grass/T_Dry_Wheatgrass_00_A.TGA using Guid(768b133a01a54a54884e4b971fe0f96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a004f7766b25e1d6e52988fd67c28d') in 0.016406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Resources/Textures/Grass/T_Dry_Wheatgrass_00_D.TGA
+  artifactKey: Guid(3e7bb2673b90c594883da5aca9cc75ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Textures/Grass/T_Dry_Wheatgrass_00_D.TGA using Guid(3e7bb2673b90c594883da5aca9cc75ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e0a0e76b27986e15b4bed88c6f682a8') in 0.016697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Resources/Textures/Grass/T_Marram_Grass_N.TGA
+  artifactKey: Guid(5c3bb3d37b0801e44af98726106965bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Textures/Grass/T_Marram_Grass_N.TGA using Guid(5c3bb3d37b0801e44af98726106965bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b717e378fad545a066aa51eb22e00144') in 0.012944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 294.281746 seconds.
+  path: Assets/Resources/Prefabs/Grass/SM_Dry_Wheatgrass_01.prefab
+  artifactKey: Guid(16325795406617941a9ccc66d18bfebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Grass/SM_Dry_Wheatgrass_01.prefab using Guid(16325795406617941a9ccc66d18bfebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e6766f0a6fd9eb255989baad77a51de') in 0.031149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Resources/Prefabs/Grass/SM_Dry_Wheatgrass_03.prefab
+  artifactKey: Guid(bb25845e33cf12449a2a05d5c689d90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Grass/SM_Dry_Wheatgrass_03.prefab using Guid(bb25845e33cf12449a2a05d5c689d90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854cfe38ddfa9ec1d3d45c7f8b16e122') in 0.018754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Resources/Prefabs/Grass/SM_Dry_Wheatgrass_05.prefab
+  artifactKey: Guid(f06001c5989b2cc479cdd39b74d31e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Grass/SM_Dry_Wheatgrass_05.prefab using Guid(f06001c5989b2cc479cdd39b74d31e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '772b766b164f907877237cff9df3b5b9') in 0.017414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resources/Prefabs/Grass/SM_Marram_Grass_02.prefab
+  artifactKey: Guid(1daa572137736de46b555670dd8bf0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Grass/SM_Marram_Grass_02.prefab using Guid(1daa572137736de46b555670dd8bf0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7077654ef641e89c3ae7ec4fbc1c3781') in 0.041243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Resources/Prefabs/Grass/SM_Marram_Grass_04.prefab
+  artifactKey: Guid(dbc61c74ea00491469ba7aa9b47bdc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Grass/SM_Marram_Grass_04.prefab using Guid(dbc61c74ea00491469ba7aa9b47bdc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c0628a95d99d065c29f80c8525cbaf1') in 0.022900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resources/Prefabs/Grass/SM_Marram_Grass_01.prefab
+  artifactKey: Guid(5dc9342364f542549aafaa8cee22b044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Grass/SM_Marram_Grass_01.prefab using Guid(5dc9342364f542549aafaa8cee22b044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd18f94f1b77a89d48e41206b2104de77') in 0.016894 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
